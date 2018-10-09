@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <FullPath>Debug</FullPath>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Report Project10</TargetReportFolder>
+    <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+    <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
+    <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+    <TargetServerURL />
+    <StartItem>incident.rdl</StartItem>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
+    <FullPath>DebugLocal</FullPath>
+    <OutputPath>bin\DebugLocal</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Report Project10</TargetReportFolder>
+    <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+    <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
+    <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+    <TargetServerURL />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <FullPath>Release</FullPath>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Report Project10</TargetReportFolder>
+    <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+    <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
+    <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+    <TargetServerURL />
+  </PropertyGroup>
+  <PropertyGroup>
+    <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+    <DataSources>@(DataSource)</DataSources>
+    <DataSets>@(DataSet)</DataSets>
+    <Reports>@(Report)</Reports>
+  </PropertyGroup>
+  <ItemGroup>
+    <DataSet Include="DataSet3.rsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Include="DataSource1.rds" />
+    <DataSource Include="DataSource2.rds" />
+    <DataSource Include="pREPROD.rds" />
+    <DataSource Include="producation.rds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Report Include="ActivitySummaryReport_UAT.rdl" />
+    <Report Include="AgedInvoicesSummary(InvoiceDate).rdl" />
+    <Report Include="AgedInvoicesSummary(ServiceThroughDate).rdl" />
+    <Report Include="Authorizations_case.rdl" />
+    <Report Include="BCBA HR Export.rdl" />
+    <Report Include="BIP Report.rdl" />
+    <Report Include="Cases Started Report.rdl" />
+    <Report Include="Cases_DischargedReport.rdl" />
+    <Report Include="Cash_Receipt.rdl" />
+    <Report Include="Claim Detail.rdl" />
+    <Report Include="ClientCaseStatus.rdl" />
+    <Report Include="ClientSummaryReport_finance.rdl" />
+    <Report Include="Client_case_shift_export.rdl" />
+    <Report Include="Client_contact_information.rdl" />
+    <Report Include="Client_Medication_profile.rdl" />
+    <Report Include="Client_Medication_Worksheet.rdl" />
+    <Report Include="Compliance Expiration.rdl" />
+    <Report Include="ComplianceComaprisonTemplate.rdl" />
+    <Report Include="ComplianceScheduleIssue.rdl" />
+    <Report Include="CompliantStaffCount.rdl" />
+    <Report Include="Copy (2) of Compliance Expiration.rdl" />
+    <Report Include="Copy of ActivitySummaryReport_UAT.rdl" />
+    <Report Include="Copy of Compliance Expiration.rdl" />
+    <Report Include="Copy of Copy of NonCompliance.rdl" />
+    <Report Include="Copy of NonCompliance.rdl" />
+    <Report Include="CountStaff_NonCompliance.rdl" />
+    <Report Include="DrillDown_tCSM_Activity.rdl" />
+    <Report Include="EE01_Satfflist.rdl" />
+    <Report Include="EE01_StaffCount.rdl" />
+    <Report Include="incident.rdl" />
+    <Report Include="Individual_Staff_Compliant.rdl" />
+    <Report Include="MasterpayerReport.rdl" />
+    <Report Include="MedicationAdministrationRecord.rdl" />
+    <Report Include="NonCompliance.rdl" />
+    <Report Include="NonCompliantStaffList.rdl" />
+    <Report Include="Opposite_State_Audit.rdl" />
+    <Report Include="overtime_pay.rdl" />
+    <Report Include="payrollExport.rdl" />
+    <Report Include="Prehire status Test report.rdl" />
+    <Report Include="prod_Client_Medication_profile.rdl" />
+    <Report Include="pro_tCSM_Activity_Report.rdl" />
+    <Report Include="Referrals Report.rdl" />
+    <Report Include="Report3.rdl" />
+    <Report Include="Staff Birthday.rdl" />
+    <Report Include="Staff Correspondance Report.rdl" />
+    <Report Include="Staff Summary.rdl" />
+    <Report Include="Staff Termination Report.rdl" />
+    <Report Include="StaffList.rdl" />
+    <Report Include="Staging_Claim Detail.rdl" />
+    <Report Include="State_Audit.rdl" />
+    <Report Include="tCSM_Activity_Report.rdl" />
+    <Report Include="test Compliance Expiration.rdl" />
+    <Report Include="test queries.rdl" />
+    <Report Include="testttttt.rdl" />
+    <Report Include="TotalStaffList.rdl" />
+    <Report Include="UAT_ActivitySummaryReport.rdl" />
+    <Report Include="UAT_MedicationAdministrationRecord.rdl" />
+    <Report Include="User Export.rdl" />
+    <Report Include="uSERcOMPETENICIES.rdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
+</Project>
